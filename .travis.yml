@@ -1,0 +1,43 @@
+os: linux
+dist: bionic
+language: shell
+env:
+- TRAVIS_TAG="x86_64" DEPLOY_HOME="aurdeploy:/home/aurbuild"
+
+services:
+- docker
+
+notifications:
+  email: false
+
+before_install:
+- bash ${TRAVIS_BUILD_DIR}/.travis/before_install.sh
+
+install:
+- bash ${TRAVIS_BUILD_DIR}/.travis/install.sh
+
+script:
+- bash ${TRAVIS_BUILD_DIR}/.travis/script.sh
+
+before_deploy:
+- docker cp ${DEPLOY_HOME}/pkg ${TRAVIS_TAG}
+
+deploy:
+- provider: releases
+  token: ${GITHUB_TOKEN}
+  file_glob: true
+  file: ${TRAVIS_TAG}/*{db,files,gz,xz}
+  overwrite: true
+  skip_cleanup: true
+  on:
+    branch: ${DEPLOY_BRANCH}
+    condition: ${DEPLOY_GITHUB} != 0
+
+- provider: script
+  script: docker exec aurdeploy bash sftp.sh
+          ${SFTP_USER} ${SFTP_HOST} ${SFTP_PASS} ${SFTP_DIR} ${TRAVIS_TAG}
+  overwrite: true
+  skip_cleanup: true
+  on:
+    branch: ${DEPLOY_BRANCH}
+    condition: ${DEPLOY_SFTP} == 1

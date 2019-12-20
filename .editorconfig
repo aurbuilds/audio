@@ -1,0 +1,11 @@
+# Repository root folder, use UTF-8 charset encoding, POSIX EOL, 2 spaces for
+# indentation, add an empty line at end of file, removing EOL whitespaces.
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true
