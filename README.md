@@ -36,8 +36,8 @@ on your fork, which should be already available at
 [Arch Linux]:      https://www.archlinux.org/
 [AUR]:             https://aur.archlinux.org/
 [Travis CI]:       https://travis-ci.com/
-[GitHub Releases]: https://github.com/archlive/aur/releases
-[here]:            https://archlive.github.io/aur/
+[GitHub Releases]: https://github.com/archlive/aurdeploy/releases
+[here]:            https://archlive.github.io/aurdeploy/
 
 [Enable Travis CI]:      https://github.com/settings/installations
 [personal access token]: https://github.com/settings/tokens/new
