@@ -1,6 +1,34 @@
+# LV2 and Firewire basics
 lv2-git
+raul-git
+suli-git
+serd-git
 lilv-git
+sord-git
+ganv-git
+libffado-svn
+
+# soundfont
+sfizz-git
+
+# audio system and control
+jack2-git
+cadence-git
+qjackctl-git
+pavucontrol-compact-git
+
+# session management
+raysession-git
+
+# host, routing, etc.
 carla-git
 carla-bridges-win32-git
 carla-bridges-win64-git
-sfizz-git
+synthpod-git
+non-mixer-lv2-git
+#guitarix-git
+element-git
+vcvrack-git
+
+# daw
+zrythm-debug-git
