@@ -1,4 +1,4 @@
-# LV2 and Firewire basics
+# lv2
 lv2-git
 raul-git
 suil-git
@@ -6,7 +6,6 @@ serd-git
 sord-git
 lilv-git
 ganv-git
-libffado-svn
 
 # soundfont
 sfizz-git
@@ -32,3 +31,7 @@ vcvrack-git
 
 # daw
 zrythm-debug-git
+
+# firewire
+libffado-svn
+# ^ to be build after JACK
