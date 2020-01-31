@@ -1,3 +1,6 @@
+# required by non-mixer-lv2-git
+ntk-git
+
 # lv2
 lv2-git
 raul-git
@@ -21,14 +24,13 @@ carla-git
 carla-bridges-win32-git
 carla-bridges-win64-git
 synthpod-git
-non-mixer-lv2-git
 #guitarix-git
 element-git
 vcvrack-git
+non-mixer-lv2-git
 
 # daw
 zrythm-debug-git
-
 
 # soundfont
 sfizz-git
