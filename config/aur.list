@@ -38,7 +38,7 @@ non-mixer-lv2-git
 zrythm-debug-git
 
 # collections
-dpf-plugins-git
+#dpf-plugins-git
 #gxplugins-lv2-git
 invada-studio-plugins-lv2
 tal-plugins
