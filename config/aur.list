@@ -7,9 +7,6 @@ sord-git
 lilv-git
 ganv-git
 
-# soundfont
-sfizz-git
-
 # audio system and control
 jack2-git
 cadence-git
@@ -32,6 +29,11 @@ vcvrack-git
 # daw
 zrythm-debug-git
 
+
+# soundfont
+sfizz-git
+# ^ to be build after jack2-git
+
 # firewire
 libffado-svn
-# ^ to be build after JACK
+# ^ to be build after jack2-git
