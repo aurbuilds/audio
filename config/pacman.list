@@ -9,4 +9,5 @@ mingw-w64-winpthreads
 
 # sfizz
 cmake
+jack
 libsndfile
