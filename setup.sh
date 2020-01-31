@@ -63,9 +63,9 @@ if (( ! ${#aurpkgs[@]} )); then exit 0; fi
 cd src
 
 for aurpkg in ${aurpkgs[@]}; do
+  echo && echo "########## ${aurpkg}"
   git clone https://aur.archlinux.org/${aurpkg}
   cd ${aurpkg}
-  echo && echo -n "-- building in `pwd`"
   makepkg -si --needed --asdeps --noprogressbar --noconfirm
   mv *.pkg.tar.xz ${HOME}/pkg/
   cd ..
