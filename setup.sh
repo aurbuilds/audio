@@ -65,7 +65,7 @@ cd src
 for aurpkg in ${aurpkgs[@]}; do
   git clone https://aur.archlinux.org/${aurpkg}
   cd ${aurpkg}
-  $(echo && echo -n "building: " && basename $(pwd) && echo)
+  echo && echo -n "-- building in `pwd`"
   makepkg -si --needed --asdeps --noprogressbar --noconfirm
   mv *.pkg.tar.xz ${HOME}/pkg/
   cd ..
