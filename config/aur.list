@@ -8,7 +8,7 @@ lilv-git
 ganv-git
 
 # audio system and control
-jack2-git
+#jack2-git
 cadence-git
 qjackctl-git
 pavucontrol-compact-git
