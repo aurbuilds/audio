@@ -3,6 +3,8 @@
 # required by non-mixer-lv2-git
 ntk-git
 
+premake-git
+
 # lv2
 lv2-git
 raul-git
