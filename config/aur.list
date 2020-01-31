@@ -1,3 +1,5 @@
+### tranche 1
+
 # required by non-mixer-lv2-git
 ntk-git
 
@@ -31,11 +33,3 @@ non-mixer-lv2-git
 
 # daw
 zrythm-debug-git
-
-# soundfont
-sfizz-git
-# ^ to be build after jack2-git
-
-# firewire
-libffado-svn
-# ^ to be build after jack2-git
