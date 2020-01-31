@@ -10,3 +10,4 @@ mingw-w64-winpthreads
 # sfizz
 cmake
 libsndfile
+premake-git
