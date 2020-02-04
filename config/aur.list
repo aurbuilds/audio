@@ -49,40 +49,40 @@ tal-plugins
 #### 3
 
 # synth
-surge-synthesizer-git
-bristol
-remid.lv2-git
-stegosaurus-lv2-git
+#surge-synthesizer-git
+#bristol
+#remid.lv2-git
+#stegosaurus-lv2-git
 
 # effects
-hybridreverb2-git
-dragonfly-reverb-git
-wolf-shaper-git
-bshapr-git
-bslizr-git
-bchoppr-git
-bjumblr.lv2-git
+#hybridreverb2-git
+#dragonfly-reverb-git
+#wolf-shaper-git
+#bshapr-git
+#bslizr-git
+#bchoppr-git
+#bjumblr.lv2-git
 
 # in a class of it's own
-moony-lv2-git
+#moony-lv2-git
 
 # soundfont
-sfizz-git
+#sfizz-git
 # ^ to be build after jack2-git
 
 # samplers etc.
-loopp-git
-drmr-falktx-git
-drumgizmo-git
-ninjas2-git
-konfyt-git
+#loopp-git
+#drmr-falktx-git
+#drumgizmo-git
+#ninjas2-git
+#konfyt-git
 
 # squencers
 #sequencer64-git
 #bsequencer-git
 
 # midi etc 
-midimonster-git
+#midimonster-git
 
 # audio formats and tools
 #alac-git
