@@ -70,7 +70,6 @@ sfizz-git
 # in a class of it's own
 #moony-lv2-git
 
-
 # samplers etc.
 #loopp-git
 #drmr-falktx-git
@@ -91,16 +90,9 @@ sfizz-git
 #fmedia-git
 #streamlink-git
 
-# audio file naming/tagging
-#picard-git
-#picard-plugins-git
-
 # firewire
 #libffado-svn
 # ^ to be build after jack2-git
-
-# visual
-#projectm-git
 
 
 ### not working atm
