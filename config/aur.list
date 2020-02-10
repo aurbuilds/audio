@@ -33,17 +33,21 @@ element-git
 #vcvrack-git
 non-mixer-lv2-git
 
+# soundfont
+sfizz-git
+# ^ to be build after jack2-git
+
 
 #### 2
 
 # daw
-zrythm-debug-git
+#zrythm-debug-git
 
 # collections
-dpf-plugins-git
+#dpf-plugins-git
 #gxplugins-lv2-git
-invada-studio-plugins-lv2
-tal-plugins
+#invada-studio-plugins-lv2
+#tal-plugins
 
 
 #### 3
@@ -66,9 +70,6 @@ tal-plugins
 # in a class of it's own
 #moony-lv2-git
 
-# soundfont
-#sfizz-git
-# ^ to be build after jack2-git
 
 # samplers etc.
 #loopp-git
